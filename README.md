@@ -9,3 +9,10 @@ processing. For now, I think this is true for model created with "Create ML". Si
 figure out this out. The custom layers are written using Accelerate Framework. Presumably, written them in lower level code or Metal 
 Performance Shader will speed things up. Currently, it takes roughly 250-300ms to complete an inference, which is too slow for the purpose
 of live stream and tracking moving objects.
+
+
+References and Inspirations:
+
+https://www.coursera.org/learn/convolutional-neural-networks
+https://pjreddie.com/darknet/yolo/
+http://machinethink.net/blog/coreml-custom-layers/
