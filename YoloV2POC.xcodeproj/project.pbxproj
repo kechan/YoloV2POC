@@ -8,20 +8,34 @@
 
 /* Begin PBXBuildFile section */
 		AFB4C46B21DD5D0B0050EB1C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB4C46A21DD5D0B0050EB1C /* AppDelegate.swift */; };
-		AFB4C46D21DD5D0B0050EB1C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB4C46C21DD5D0B0050EB1C /* ViewController.swift */; };
 		AFB4C47021DD5D0B0050EB1C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFB4C46E21DD5D0B0050EB1C /* Main.storyboard */; };
 		AFB4C47221DD5D0F0050EB1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFB4C47121DD5D0F0050EB1C /* Assets.xcassets */; };
 		AFB4C47521DD5D0F0050EB1C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFB4C47321DD5D0F0050EB1C /* LaunchScreen.storyboard */; };
+		AFB4C47D21DD5F9E0050EB1C /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB4C47C21DD5F9E0050EB1C /* MainViewController.swift */; };
+		AFB4C47F21DD60F00050EB1C /* YoloDetectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB4C47E21DD60F00050EB1C /* YoloDetectionController.swift */; };
+		AFB4C48221DDB0E90050EB1C /* ImageToPixelBufferConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB4C48121DDB0E90050EB1C /* ImageToPixelBufferConverter.swift */; };
+		AFB4C48B21DDE7130050EB1C /* DetectionEvaluateOutputs.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB4C48A21DDE7130050EB1C /* DetectionEvaluateOutputs.swift */; };
+		AFB4C48D21DDEAA50050EB1C /* Space2Depthx2.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB4C48C21DDEAA50050EB1C /* Space2Depthx2.swift */; };
+		AFC7CBB921E1E52100A4AE17 /* YoloV2Detection.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = AFC7CBB821E1E52000A4AE17 /* YoloV2Detection.mlmodel */; };
+		AFC7CBBC21E1F61600A4AE17 /* NumericUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC7CBBB21E1F61600A4AE17 /* NumericUtil.swift */; };
+		AFEB19D321E6E743005F8387 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFEB19D221E6E743005F8387 /* Utilities.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AFB4C46721DD5D0B0050EB1C /* YoloV2POC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YoloV2POC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFB4C46A21DD5D0B0050EB1C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AFB4C46C21DD5D0B0050EB1C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AFB4C46F21DD5D0B0050EB1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AFB4C47121DD5D0F0050EB1C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AFB4C47421DD5D0F0050EB1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AFB4C47621DD5D0F0050EB1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFB4C47C21DD5F9E0050EB1C /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		AFB4C47E21DD60F00050EB1C /* YoloDetectionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoloDetectionController.swift; sourceTree = "<group>"; };
+		AFB4C48121DDB0E90050EB1C /* ImageToPixelBufferConverter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageToPixelBufferConverter.swift; sourceTree = "<group>"; };
+		AFB4C48A21DDE7130050EB1C /* DetectionEvaluateOutputs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetectionEvaluateOutputs.swift; sourceTree = "<group>"; };
+		AFB4C48C21DDEAA50050EB1C /* Space2Depthx2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Space2Depthx2.swift; sourceTree = "<group>"; };
+		AFC7CBB821E1E52000A4AE17 /* YoloV2Detection.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = YoloV2Detection.mlmodel; sourceTree = "<group>"; };
+		AFC7CBBB21E1F61600A4AE17 /* NumericUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumericUtil.swift; sourceTree = "<group>"; };
+		AFEB19D221E6E743005F8387 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +68,45 @@
 		AFB4C46921DD5D0B0050EB1C /* YoloV2POC */ = {
 			isa = PBXGroup;
 			children = (
+				AFB4C48321DDB2980050EB1C /* mlModels */,
+				AFB4C48021DDB0DC0050EB1C /* Image Helper */,
+				AFC7CBBA21E1F60400A4AE17 /* Utils */,
 				AFB4C46A21DD5D0B0050EB1C /* AppDelegate.swift */,
-				AFB4C46C21DD5D0B0050EB1C /* ViewController.swift */,
+				AFB4C47C21DD5F9E0050EB1C /* MainViewController.swift */,
+				AFB4C47E21DD60F00050EB1C /* YoloDetectionController.swift */,
 				AFB4C46E21DD5D0B0050EB1C /* Main.storyboard */,
 				AFB4C47121DD5D0F0050EB1C /* Assets.xcassets */,
 				AFB4C47321DD5D0F0050EB1C /* LaunchScreen.storyboard */,
 				AFB4C47621DD5D0F0050EB1C /* Info.plist */,
 			);
 			path = YoloV2POC;
+			sourceTree = "<group>";
+		};
+		AFB4C48021DDB0DC0050EB1C /* Image Helper */ = {
+			isa = PBXGroup;
+			children = (
+				AFB4C48121DDB0E90050EB1C /* ImageToPixelBufferConverter.swift */,
+			);
+			path = "Image Helper";
+			sourceTree = "<group>";
+		};
+		AFB4C48321DDB2980050EB1C /* mlModels */ = {
+			isa = PBXGroup;
+			children = (
+				AFC7CBB821E1E52000A4AE17 /* YoloV2Detection.mlmodel */,
+				AFB4C48A21DDE7130050EB1C /* DetectionEvaluateOutputs.swift */,
+				AFB4C48C21DDEAA50050EB1C /* Space2Depthx2.swift */,
+			);
+			path = mlModels;
+			sourceTree = "<group>";
+		};
+		AFC7CBBA21E1F60400A4AE17 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				AFC7CBBB21E1F61600A4AE17 /* NumericUtil.swift */,
+				AFEB19D221E6E743005F8387 /* Utilities.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +180,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AFB4C46D21DD5D0B0050EB1C /* ViewController.swift in Sources */,
+				AFB4C48D21DDEAA50050EB1C /* Space2Depthx2.swift in Sources */,
+				AFB4C47D21DD5F9E0050EB1C /* MainViewController.swift in Sources */,
+				AFB4C47F21DD60F00050EB1C /* YoloDetectionController.swift in Sources */,
+				AFB4C48221DDB0E90050EB1C /* ImageToPixelBufferConverter.swift in Sources */,
 				AFB4C46B21DD5D0B0050EB1C /* AppDelegate.swift in Sources */,
+				AFC7CBBC21E1F61600A4AE17 /* NumericUtil.swift in Sources */,
+				AFEB19D321E6E743005F8387 /* Utilities.swift in Sources */,
+				AFC7CBB921E1E52100A4AE17 /* YoloV2Detection.mlmodel in Sources */,
+				AFB4C48B21DDE7130050EB1C /* DetectionEvaluateOutputs.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,7 +344,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = net.kechan.YoloV2POC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -310,7 +362,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = net.kechan.YoloV2POC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
