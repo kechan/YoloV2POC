@@ -13,6 +13,6 @@ of live stream and tracking moving objects.
 
 References and Inspirations:
 
-https://www.coursera.org/learn/convolutional-neural-networks
-https://pjreddie.com/darknet/yolo/
-http://machinethink.net/blog/coreml-custom-layers/
+* https://www.coursera.org/learn/convolutional-neural-networks
+* https://pjreddie.com/darknet/yolo/
+* http://machinethink.net/blog/coreml-custom-layers/
