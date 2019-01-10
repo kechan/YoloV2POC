@@ -10,6 +10,9 @@ figure out this out. The custom layers are written using Accelerate Framework. P
 Performance Shader will speed things up. Currently, it takes roughly 250-300ms to complete an inference, which is too slow for the purpose
 of live stream and tracking moving objects.
 
+## Instruction 
+1) Go to Release and download YoloV2DetectionModel.mlmodel
+2) Open the project in xcode and drop this .mlmodel into the mlModels folder and compile/run.
 
 References and Inspirations:
 
