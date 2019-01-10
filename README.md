@@ -13,7 +13,8 @@ of live stream and tracking moving objects.
 ## Instruction 
 0) Git clone this project.
 1) Go to Release and download YoloV2DetectionModel.mlmodel
-2) Open the project in xcode and drop this .mlmodel into the mlModels folder and compile/run.
+2) Open the project in xcode and drop this .mlmodel into the mlModels folder and compile/run. The project is configured to 
+run only in landscape on iPad but you can modify this as pleased.
 
 References and Inspirations:
 
