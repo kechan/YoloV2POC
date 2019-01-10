@@ -11,6 +11,7 @@ Performance Shader will speed things up. Currently, it takes roughly 250-300ms t
 of live stream and tracking moving objects.
 
 ## Instruction 
+0) Git clone this project.
 1) Go to Release and download YoloV2DetectionModel.mlmodel
 2) Open the project in xcode and drop this .mlmodel into the mlModels folder and compile/run.
 
